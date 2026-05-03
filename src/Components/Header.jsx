@@ -4,7 +4,11 @@ import "./Header.css";
 export default function Header() {
   return (
     <Fragment>
-      <img className="avatar" src="/images/avatar-jessica.jpeg" alt="jessica" />
+      <img
+        className="avatar"
+        src="./images/avatar-jessica.jpeg"
+        alt="jessica"
+      />
       <section className="title">
         <h1>Jessica Randall</h1>
         <p>London, United Kingdom</p>

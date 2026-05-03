@@ -28,7 +28,7 @@ function App() {
       <section className="logo" id="logo">
         <div className="logo_div">
           <img
-            src={`/images/${currentImg}.png`}
+            src={`./images/${currentImg}.png`}
             alt="Imagen red social"
             className={contenImg ? "logo_red" : "logo_borrar"}
             width={200}

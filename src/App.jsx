@@ -4,7 +4,7 @@ import Header from "./Components/Header";
 import Link from "./Components/Link";
 
 function App() {
-  const [currentImg, setCurrentImg] = useState();
+  const [currentImg, setCurrentImg] = useState("GitHub");
   const [contenImg, setContenImg] = useState(false);
 
   function evento_link(item) {
